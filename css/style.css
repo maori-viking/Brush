@@ -16,7 +16,7 @@ section {
   .brush{
     position: absolute;
     top: 40%;
-    color: white;
+    color: rgb(71, 71, 255);
   }
 
   .fineprint{
@@ -48,6 +48,13 @@ section {
     object-fit: cover;
     border-radius: 50px;
     width: 800px;
+    max-width: 80vw;
+  }
+
+  .map {
+    object-fit: cover;
+    border-radius: 50px;
+    width: 1000px;
     max-width: 80vw;
   }
 
