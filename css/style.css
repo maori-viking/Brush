@@ -1,0 +1,72 @@
+section {
+    text-align: center;
+  }
+
+.hero {
+    background-image: linear-gradient( rgba(98, 179, 255, 0.6), rgb(255, 243, 224, 0.7));
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+  }
+
+  .heroVideo{
+    height:100vh;
+  }
+
+  .brush{
+    position: absolute;
+    top: 40%;
+    color: white;
+  }
+
+  .fineprint{
+    font-size: 12px;
+  }
+
+  h1 {
+    padding: 20px;
+    font-weight: 300 !important;
+  }
+
+  .about,
+  .instagram-feed {
+    background-color: rgb(255, 243, 224);
+  }
+
+  .insta-div {
+    padding-bottom: 20px;
+  }
+
+  .insta-pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+
+  .storefront {
+    object-fit: cover;
+    border-radius: 50px;
+    width: 800px;
+    max-width: 80vw;
+  }
+
+
+  /* Instagram Section */
+
+
+  /* Contact Section */
+
+  .contact {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(98, 179, 255, 0.9)), url(../assets/Google\ Maps\ Clovelly.png);
+    background-size: cover;
+  }
+
+  .contact-form button {
+    text-align: center;
+  }
+
+  .btn-submit {
+    background-color: #4c98fc;
+    color: white;
+  }
