@@ -2,6 +2,10 @@ section {
     text-align: center;
   }
 
+  .services{
+    background-color: rgb(255, 231, 235);
+  }
+
 .hero {
     background-image: linear-gradient( rgba(98, 179, 255, 0.6), rgb(255, 243, 224, 0.7));
     width:100vw;
@@ -28,13 +32,24 @@ section {
     font-weight: 300 !important;
   }
 
-  .about,
-  .instagram-feed {
+  .about {
     background-color: rgb(255, 243, 224);
   }
 
   .insta-div {
     padding-bottom: 20px;
+  }
+
+  .brands{
+    background-color: white;
+  }
+
+  .brandImg {
+    height: 200px;
+    width: 200px;
+    max-height: 70%;
+    max-width: 70%;
+    object-fit: contain;
   }
 
   .insta-pic {
@@ -55,7 +70,8 @@ section {
     object-fit: cover;
     border-radius: 50px;
     width: 1000px;
-    max-width: 80vw;
+    max-width: 90vw;
+    height: 400px;
   }
 
 
@@ -65,8 +81,7 @@ section {
   /* Contact Section */
 
   .contact {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(98, 179, 255, 0.9)), url(../assets/Google\ Maps\ Clovelly.png);
-    background-size: cover;
+    background-color: rgb(156, 243, 253);
   }
 
   .contact-form button {
