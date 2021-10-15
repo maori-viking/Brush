@@ -34,9 +34,11 @@ section {
 
     -moz-background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     text-transform: uppercase;
+    font-size: min(100px, 12vw);
+    /* font-size: 12vw; */
     
-    font-size: 12vw;
   }
 
   .about, .contact {
@@ -91,7 +93,8 @@ section {
   .map {
     object-fit: cover;
     border-radius: 50px;
-    width: 1000px;
-    max-width: 90vw;
+    width: 1200px;
+    max-width: 99vw;
     height: 400px;
+    align-content: center;
   }
