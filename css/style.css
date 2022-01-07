@@ -30,18 +30,23 @@ section {
     color: rgb(71, 71, 255);
   }
 
+  .joinBrush{
+    color:white;
+  }
+
   
 
   .brushLogo{
     width: 90vw;
-    max-width: 300px;
-    
+    max-width: 500px;
 
+    position: relative;
+    top: -100px;
   }
 
   .heroText{
     position: relative;
-    top: -80px;
+    top: -200px;
 
     font-family: "Montserrat";
     background-image: linear-gradient(rgb(168, 241, 243), rgb(255, 243, 224));
@@ -59,7 +64,7 @@ section {
 
   .about, .contact{
     /* background-color: rgb(255, 243, 224); */
-    background-color: rgb(255, 210, 245);
+    background-color: rgb(255, 214, 209);
   }
 
   .storefront {
@@ -70,7 +75,7 @@ section {
   }
 
   .services{
-    background-image: linear-gradient(rgb(168, 241, 243), rgb(255, 210, 245));
+    background-image: linear-gradient(rgb(168, 241, 243), rgb(255, 214, 209));
   }
 
 
@@ -99,7 +104,7 @@ section {
   }
 
   .btn-submit {
-    background-color: rgb(255, 109, 211);
+    background-color: rgb(240, 173, 164);
     color: white;
   }
 
